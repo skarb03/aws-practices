@@ -9,7 +9,7 @@ ec2 = new AWS.EC2({
 });
 
 ec2.startInstances({
-    InstanceIds: ['i-0112887371112fbfd'],
+    InstanceIds: ['i-019d5a54bf77cd876'],
     DryRun: false
 }, function (error, data) {
     if (error) {
