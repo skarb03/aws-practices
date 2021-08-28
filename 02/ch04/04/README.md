@@ -7,7 +7,6 @@ $ aws cloudformation create-stack --stack-name myserver --template-body https://
 $ aws cloudformation describe-stacks --stack-name myserver --query Stacks[0].Outputs
 
 $ aws cloudformation delete-stack --stack-name myserver
-
 ```
 
 ### ex04
@@ -17,7 +16,6 @@ $ aws cloudformation create-stack --stack-name myserver --template-body https://
 $ aws cloudformation describe-stacks --stack-name myserver --query Stacks[0].Outputs
 
 $ aws cloudformation delete-stack --stack-name myserver
-
 ```
 
 ### ex05
