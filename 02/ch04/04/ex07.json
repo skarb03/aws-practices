@@ -52,8 +52,8 @@
 								"httpd": []
 					  		}
 						},
-						"sources" : {
-							"/var/www/html":"https://raw.githubusercontent.com/skarb03/aws-practices/main/02/ch04/04/mysite.tar.gz"
+						"sources":{
+							"/var/www/html": "https://github.com/skarb03/mysite/tarball/main"
 						},
 						"services": {
 							"sysvinit": {
